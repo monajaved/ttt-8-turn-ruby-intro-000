@@ -37,9 +37,9 @@ def turn(board)
   index = input_to_index(input)
   outcome = valid_move?(board, index)
   if outcome == false
-    input2 = gets.strip
+    input = gets.strip
+    index = input_to_index(input)
   end
-  # input2 = gets.strip
-  #   return true
-  # end
+  if outcome == true
+    move(board, index, value="X")
 end
