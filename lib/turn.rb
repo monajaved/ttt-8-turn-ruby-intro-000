@@ -42,4 +42,5 @@ def turn(board)
   end
   if outcome == true
     move(board, index, value="X")
+  end
 end
