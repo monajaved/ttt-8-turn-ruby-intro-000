@@ -40,6 +40,6 @@ def turn(board)
     input = gets.strip
     index = input_to_index(input)
   end
-  # if outcome == true
-  #   move(board, index, value="X")
+  if outcome == true
+    move(board, index, value="X")
 end
