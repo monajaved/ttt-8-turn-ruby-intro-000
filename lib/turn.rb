@@ -11,8 +11,8 @@ def input_to_index(input)
   input = input - 1
 end
 
-def valid_move?(board, index)
-  if index.between?(0, 8) && position_taken == false
+def valid_move?(board, input)
+  if input.between?(0, 8) && position_taken? == false
     return true
   else
     return false
